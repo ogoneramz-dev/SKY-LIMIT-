@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact | Sky Limit Academy</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Contact Sky Limit Academy for tutoring inquiries, fees, timetables and enrollment. Call, WhatsApp, or send a message." />
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="header">
+  <div class="container nav">
+    <a class="brand" href="index.html" aria-label="Sky Limit Academy Home">
+      <span class="brand-badge" aria-hidden="true">SL</span>
+      <span class="brand-text">SKY LIMIT ACADEMY<small>Contact</small></span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="subjects.html">Subjects</a>
+      <a href="admissions.html">Admissions</a>
+      <a class="active" href="contact.html">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a class="btn small" href="tel:+267XXXXXXXX">Call</a>
+      <a class="btn primary small" href="https://wa.me/267XXXXXXXX?text=Hello%20Sky%20Limit%20Academy!%20I%20want%20to%20enquire%20about%20tuition." target="_blank" rel="noopener">WhatsApp</a>
+
+      <input id="navToggle" class="nav-toggle" type="checkbox">
+      <label class="hamburger" for="navToggle" aria-label="Open menu">
+        <span class="bar"></span>
+      </label>
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="mobile-menu" aria-label="Mobile menu">
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="subjects.html">Subjects</a>
+      <a href="admissions.html">Admissions</a>
+      <a class="active" href="contact.html">Contact</a>
+      <div class="mobile-cta">
+        <a class="btn small" href="tel:+267XXXXXXXX">Call</a>
+        <a class="btn primary small" href="https://wa.me/267XXXXXXXX?text=Hello%20Sky%20Limit%20Academy!%20I%20want%20to%20enquire%20about%20tuition." target="_blank" rel="noopener">WhatsApp</a>
+      </div>
+    </div>
+  </div>
+</header>
+
+<main class="section" id="main">
+  <div class="container">
+    <div class="section-head">
+      <h1>Contact Us</h1>
+      <p class="lead">Reach out for inquiries, timetables, fees, or enrollment support.</p>
+    </div>
+
+    <div class="grid two">
+      <div class="card">
+        <h2 class="h3">Contact Details</h2>
+
+        <p><strong>Phone:</strong> <a href="tel:+267XXXXXXXX">+267 74266261</a></p>
+        <p><strong>WhatsApp:</strong> <a href="https://wa.me/267XXXXXXXX" target="_blank" rel="noopener">Chat on WhatsApp</a></p>
+        <p><strong>Email:</strong> <a href="mailto:skylimitacademy@email.com">skylimitacademy@email.com</a></p>
+        <p><strong>Location:</strong>SELEBI PHIKWE</p>
+
+        <div class="mini-actions">
+          <a class="btn" href="tel:+267XXXXXXXX">Call Now</a>
+          <a class="btn primary" href="https://wa.me/267XXXXXXXX?text=Hello%20Sky%20Limit%20Academy!%20Please%20share%20your%20timetable%20and%20fees." target="_blank" rel="noopener">WhatsApp for Timetable</a>
+        </div>
+
+        <div class="divider"></div>
+
+        <h3 class="h4">What happens next?</h3>
+        <ul class="checklist">
+          <li>We reply within 24 hours (often sooner on WhatsApp)</li>
+          <li>We recommend the right subject(s) and class option</li>
+          <li>You receive timetable + fees + start date</li>
+        </ul>
+      </div>
+
+      <form class="card form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
+        <h2 class="h3">Send a Message</h2>
+
+        <label for="name">Your Name</label>
+        <input id="name" name="name" type="text" autocomplete="name" required>
+
+        <label for="phone">Your Phone / WhatsApp</label>
+        <input id="phone" name="phone" type="tel" autocomplete="tel" required>
+
+        <label for="topic">Topic</label>
+        <select id="topic" name="topic" required>
+          <option value="">Select…</option>
+          <option>Enrollment</option>
+          <option>Fees & Packages</option>
+          <option>Timetable</option>
+          <option>Subjects</option>
+          <option>Other</option>
+        </select>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" required placeholder="Tell us the student’s level and subjects."></textarea>
+
+        <input type="text" name="_gotcha" style="display:none">
+
+        <button class="btn primary" type="submit">Send Message</button>
+
+        <p class="small" style="margin-top:10px;">
+          Prefer WhatsApp? Use the button above for the fastest reply.
+        </p>
+      </form>
+    </div>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="container"><small>© Sky Limit Academy</small></div>
+</footer>
+</body>
+</html>
